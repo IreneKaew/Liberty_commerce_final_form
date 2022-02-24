@@ -1,0 +1,471 @@
+.body-admin {
+    display: flex;
+    background-image: url("../image/motogpf1.jpg");
+    background-size: cover;
+    flex-direction: column;
+
+}
+
+
+.facebook {
+    width: 50px;
+    height: 50px;
+}
+
+.twiiter {
+    width: 50px;
+    height: 50px;
+}
+
+.reseaux
+{
+    display: flex;
+    float: right;
+}
+
+/* header bar css */
+
+header{
+    background-color: black;
+    height: 20px;
+    width: 90%;
+}
+
+.img-logo-header {
+    margin-left: 260px;
+}
+.title-name {
+    color:#05FF00;
+}
+
+.a-links {
+    font-size: 18px;
+    font-weight: 500;
+    color: #05FF00;
+    text-decoration: none;   
+
+}
+
+
+.count{
+    margin-bottom: 15px;
+}
+
+ li, a {
+    font-size: 18px;
+    font-weight: 500;
+    color: green;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    
+}
+
+.header-links {
+    list-style: none;
+}
+
+.header-links-cart{
+    list-style: none;
+    margin-right: -260px;
+}
+
+.header-links-cart li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.header-links-cart li a {
+    transition: all 0.3s ease 0s;
+}
+
+.header-links-cart li a:hover {
+    color: cornflowerblue;
+}
+
+.header-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.header-links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.header-links li a:hover {
+    color: cornflowerblue;
+}
+
+.header-link {
+    list-style: none;
+}
+
+.header-link-cart{
+    list-style: none;
+    margin-right: -260px;
+}
+
+.header-link-cart li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.header-link-cart li a {
+    transition: all 0.3s ease 0s;
+}
+
+.header-link-cart li a:hover {
+    color: cornflowerblue;
+}
+
+.header-link li {
+    display: inline-block;
+    
+}
+
+
+.header-link li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.header-link li a:hover {
+    color: cornflowerblue;
+}
+
+
+/* fooeter of ecah page */
+
+footer {
+    width: 99%;
+    background-color: #05FF00;
+    height: 60px;
+    /* position:absolute;
+    bottom:0;
+    margin-bottom: 7px; */
+    
+}
+
+.cadre-panier {
+    background-color: black;
+    width: 850px;
+    height: 525px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.img-top {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+    
+h1 {
+    margin-left: 20px;
+    font-size: 20px;
+    color:#05FF00 ;
+    font-weight: bolder;
+    
+}
+.logo {
+    margin-left: 215px;
+    margin-top: 5px;
+  
+}
+.a{
+    color: #05FF00;
+}
+.width {
+    width: 420px;
+}
+.width-deco {
+    width: 500px;
+}
+.haut {
+    display: flex;
+}
+.username {
+    margin-left: 435px;
+    color:#05FF00;
+}
+
+
+.intro-home {
+    color:white;
+    background-color: black;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 455px;
+}
+.liencompte {
+    color:#05FF00;
+    background-color: black;
+    font-size: 30px;
+    width: 85px;
+    margin-left: 680px;
+}
+    
+.cadre {
+    background-color: black;
+    width: 520px;
+    height: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cadre-admin {
+    background-color: black;
+    width: 500px;
+    height: 730px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.login {
+    font-size: 30px;
+}
+
+.p-login{
+    color: green;
+    font-size: 20px;
+}
+
+.button-login{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin-top: 10px;
+    border: none;
+    background-color: green;
+}
+
+.button-login:hover{
+    color: white;
+    background-color: #05FF00;
+}
+
+.label-admin{
+    margin-top: 2px;
+} 
+
+.button-admin{
+
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin-top: -10px;
+    border: none;
+    background-color: green;
+    margin-top: 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.button-admin:hover{
+    color: white;
+    background-color: #05FF00;
+}
+
+.label{
+    color: white;
+    font-size: 15px;
+}
+
+.form-admin input {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.form-admin select {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+.p{
+    color: white;
+    font-size: 25px;
+}
+.labe{
+    color: white;
+    font-size: 15px;
+}
+.bouton {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin-top: -10px;
+    border: none;
+    background-color: green;
+    
+}
+
+.bouton:hover{
+    color: white;
+    background-color: #05FF00;
+}
+.bouton-menu {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin: center;
+    border: none;
+    background-color: green;
+    width: 50%;
+}
+
+.bouton-menu:hover{
+    color: white;
+    background-color: #05FF00;
+}
+
+
+.form-admin {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.form-admin a {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+label {
+    color: white; 
+}
+
+form {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label{
+    display: flex;
+    margin-top: 17px;
+    font-size: 20px;
+}
+
+form input{
+    width: 90%;
+    padding: 13px;
+}
+
+.botton-select {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin-top: 17px;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.botton-select:hover{
+    color: white;
+    background-color: #05FF00;
+}
+
+
+.paragraph{
+    color: white;
+    text-align: center;
+}
+
+
+.send {
+    font-size: 17px;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin-top: 6px;
+    border: none;
+    background-color: green;
+
+}
+
+.descrip {
+    height: 50px;
+}
+
+
+/* Admin's product page */
+
+.newinfo-box{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #05FF00;
+    margin-bottom: 100px;
+}
+
+.product-page-title{
+    color: green;
+    font-size: 25px;
+    width: 70%;
+   
+}
+.product-page{
+    color:black;
+   
+}
+
+.form-newinfo {
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button-confirm{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin-top: 17px;
+    border: none;
+    background-color: green;
+
+}
+
+
+
+
+
+

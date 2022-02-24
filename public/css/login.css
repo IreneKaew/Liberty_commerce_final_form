@@ -1,0 +1,498 @@
+.body-signin {
+    display: flex;
+    background-image: url("../image/motogpf1.jpg");
+    background-size: cover;
+    flex-direction: column;
+    overflow: clip;
+}
+
+
+.facebook {
+    width: 50px;
+    height: 50px;
+}
+
+.twiiter {
+    width: 50px;
+    height: 50px;
+}
+
+.reseaux
+{
+    display: flex;
+    float: right;
+}
+
+/* header bar css */
+
+header{
+    background-color: black;
+    height: 20px;
+    width: 90%;
+}
+
+.img-logo-header {
+    margin-left: 260px;
+}
+.title-name {
+    color:#05FF00;
+}
+
+.a-links {
+    font-size: 18px;
+    font-weight: 500;
+    color: #05FF00;
+    text-decoration: none;   
+
+}
+
+
+.count{
+    margin-bottom: 15px;
+}
+
+ li, a {
+    font-size: 18px;
+    font-weight: 500;
+    color: green;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    
+}
+
+.header-links {
+    list-style: none;
+}
+
+.header-links-cart{
+    list-style: none;
+    margin-right: -260px;
+}
+
+.header-links-cart li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.header-links-cart li a {
+    transition: all 0.3s ease 0s;
+}
+
+.header-links-cart li a:hover {
+    color: cornflowerblue;
+}
+
+.header-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.header-links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.header-links li a:hover {
+    color: cornflowerblue;
+}
+
+.header-link {
+    list-style: none;
+}
+
+
+.header-link li {
+    display: inline-block;
+    
+}
+
+
+.header-link li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.header-link li a:hover {
+    color: cornflowerblue;
+}
+
+
+/* fooeter of ecah page */
+
+
+.footer-login{
+    width: 99%;
+    background-color: #05FF00;
+    position: fixed;
+    bottom: 5px;
+
+}
+
+.img-top {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+    
+h1 {
+    margin-left: 20px;
+    font-size: 20px;
+    color:#05FF00 ;
+    font-weight: bolder;
+    
+}
+.logo {
+    margin-left: 215px;
+    margin-top: 5px;
+  
+}
+.a{
+    color: #05FF00;
+}
+.width {
+    width: 420px;
+}
+.width-deco {
+    width: 500px;
+}
+.haut {
+    display: flex;
+}
+.username {
+    margin-left: 435px;
+    color:#05FF00;
+}
+
+.liencompte {
+    color:#05FF00;
+    background-color: black;
+    font-size: 30px;
+    width: 85px;
+    margin-left: 680px;
+}
+    
+.cadre {
+    background-color: black;
+    width: 520px;
+    height: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.login {
+    font-size: 30px;
+}
+
+.p-login{
+    color: green;
+    font-size: 20px;
+}
+
+.button-login{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin-top: 10px;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.button-login:hover{
+    color: white;
+    background-color: #05FF00;
+}
+
+
+.label{
+    color: white;
+    font-size: 15px;
+}
+
+.form-signin input {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.form-signin select {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+
+.p{
+    color: white;
+    font-size: 25px;
+}
+.labe{
+    color: white;
+    font-size: 15px;
+}
+.bouton {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin-top: -10px;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+
+.bouton:hover{
+    color: white;
+    background-color: #05FF00;
+}
+
+
+.form-signin {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.form-signin a {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+label {
+    color: white; 
+}
+
+form {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label{
+    display: flex;
+    margin-top: 17px;
+    font-size: 20px;
+}
+
+form input{
+    width: 90%;
+    padding: 13px;
+}
+
+.botton-select {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin-top: 17px;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.botton-select:hover{
+    color: white;
+    background-color: #05FF00;
+}
+
+
+.paragraph{
+    color: white;
+    text-align: center;
+}
+
+.login-page{
+    color:greenyellow;
+}
+
+
+.descrip {
+    height: 50px;
+}
+
+
+.table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.td {
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    
+}
+table th, table td {
+    border: solid 3px;
+    border-color: #05FF00;
+    color:white;
+
+  }
+.ul {
+    color: #05FF00;
+    margin: auto;
+}
+
+.li{
+    color: #05FF00;
+}
+.alert-danger{
+    color: red;
+}
+
+.error{
+    color: red;
+}
+
+/* Admin's product page */
+
+.newinfo-box{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #05FF00;
+    margin-bottom: 100px;
+}
+
+
+.form-newinfo {
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button-confirm{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin-top: 17px;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.button-confirm:hover{
+    color: white;
+    background-color: #05FF00;
+}
+
+
+.product-add-increment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%
+
+}
+
+.h3-product-stock{
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.button-product-stock{
+    width: 50px;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    font-size: 30px;
+    background-color:green;
+
+}
+
+.button-product-stock:hover {
+    color: white;
+    background-color: #05FF00;
+}
+
+ .titleprod{
+     color: white;
+ }
+
+ .pricecart{
+     color: white;
+ }
+ .cookie{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #05FF00;
+    height: 500px;
+    width: 500px;
+ }
+ 
+ .font-cookie{
+     position: absolute;
+     left: 0px;
+     right: 0px;
+     top: 0px;
+     bottom: 0px;
+     background: rgb(0,0,0,0.3);
+ }
+
+.h1-cookie{
+    color: black;
+    font-size: 25px;
+}
+
+.imgcookie{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.button-cookie{
+    font-size: 20px;
+    color:#05FF00;
+    width: 55%;
+    height: 43px;
+    margin-top: 10px;
+    border: none;
+    background-color: black;
+}
+
+.accept-cookie{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tdcart{
+    color: white;
+}

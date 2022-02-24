@@ -1,0 +1,472 @@
+.facebook {
+    width: 50px;
+    height: 50px;
+}
+
+.twiiter {
+    width: 50px;
+    height: 50px;
+}
+
+.reseaux
+{
+    display: flex;
+    float: right;
+}
+
+/* header bar css */
+
+header{
+    background-color: black;
+    height: 20px;
+    width: 90%;
+}
+
+.img-logo-header {
+    margin-left: 260px;
+}
+.title-name {
+    color:#05FF00;
+}
+
+.a-links {
+    font-size: 18px;
+    font-weight: 500;
+    color: #05FF00;
+    text-decoration: none;   
+
+}
+
+
+.count{
+    margin-bottom: 15px;
+}
+
+ li, a {
+    font-size: 18px;
+    font-weight: 500;
+    color: green;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    
+}
+
+.header-links {
+    list-style: none;
+}
+
+.header-links-cart{
+    list-style: none;
+    margin-right: -260px;
+}
+
+.header-links-cart li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.header-links-cart li a {
+    transition: all 0.3s ease 0s;
+}
+
+.header-links-cart li a:hover {
+    color: cornflowerblue;
+}
+
+.header-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.header-links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.header-links li a:hover {
+    color: cornflowerblue;
+}
+
+.header-link {
+    list-style: none;
+}
+
+.header-link-cart{
+    list-style: none;
+    margin-right: -260px;
+}
+
+.header-link-cart li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.header-link-cart li a {
+    transition: all 0.3s ease 0s;
+}
+
+.header-link-cart li a:hover {
+    color: cornflowerblue;
+}
+
+.header-link li {
+    display: inline-block;
+    
+}
+
+
+.header-link li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.header-link li a:hover {
+    color: cornflowerblue;
+}
+
+
+footer {
+    width: 99%;
+    background-color: #05FF00;
+    height: 60px;
+    /* position:absolute;
+    bottom:0;
+    margin-bottom: 7px; */
+    
+}
+
+
+.img-top {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.img-header-product{
+    margin-left: 260px;
+   
+}
+
+.img-header-menu{
+     margin-left: 260px;
+
+}
+
+.img-header-cart{
+    margin-left: 260px;
+    
+}
+    
+h1 {
+    margin-left: 20px;
+    font-size: 20px;
+    color:#05FF00 ;
+    font-weight: bolder;
+    
+}
+.logo {
+    margin-left: 215px;
+    margin-top: 5px;
+  
+}
+.a{
+    color: #05FF00;
+}
+.width {
+    width: 420px;
+}
+.width-deco {
+    width: 500px;
+}
+.haut {
+    display: flex;
+}
+.username {
+    margin-left: 435px;
+    color:#05FF00;
+}    
+
+
+.label{
+    color: white;
+    font-size: 15px;
+}
+
+.p{
+    color: white;
+    font-size: 25px;
+}
+.labe{
+    color: white;
+    font-size: 15px;
+}
+.bouton {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin-top: -10px;
+    border: none;
+    background-color: green;
+    
+}
+
+.bouton:hover{
+    color: white;
+    background-color: #05FF00;
+}
+
+
+label {
+    color: white; 
+}
+
+form {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label{
+    display: flex;
+    margin-top: 17px;
+    font-size: 20px;
+}
+
+form input{
+    width: 90%;
+    padding: 13px;
+}
+
+
+.paragraph{
+    color: white;
+    text-align: center;
+}
+
+
+
+.button-reset{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: green;
+    margin-bottom: 10px;
+    margin-top: 7px;
+}
+
+.descrip {
+    height: 50px;
+}
+
+
+
+.table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.td {
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    
+}
+table th, table td {
+    border: solid 3px;
+    border-color: #05FF00;
+    color:white;
+
+  }
+.ul {
+    color: #05FF00;
+    margin: auto;
+}
+/* product page css */
+
+.body-product {
+    display: flex;
+    background-color:whitesmoke;
+    background-size: 100% 100%;
+    flex-direction: column;
+}
+
+
+
+.produit-box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 500px;
+}
+
+.culum-product {
+    flex-basis: 40%;
+    padding: 10px;
+    min-width: 300px;
+    margin: 30px;
+}
+
+
+.imgFr-f1 {
+    width: 85%;
+    margin: 30px;
+}
+
+.p-product{
+    font-weight: bold;
+    color:green;
+    font-size: 25px;
+}
+.h1-product {
+    font-size: 2Opx;
+    text-align: left;
+    margin-left: 1px;
+    color:#169c14;
+}
+
+.h4-product-descr {
+    color: rgb(170, 169, 169);
+    text-align: left;
+    font-size: 10px;
+    margin-top: -20px;
+}
+
+.h2-product-stock{
+    font-size: 15px;
+    color: grey;
+}
+
+.h3-product-tickets{
+    color: rgb(70, 70, 70);
+}
+
+.h4-product-prix{
+    color: red;
+}
+.li{
+    color: #05FF00;
+}
+.alert-danger{
+    color: red;
+}
+
+.error{
+    color: red;
+}
+
+/* Admin's product page */
+
+.newinfo-box{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #05FF00;
+    margin-bottom: 100px;
+}
+
+.product-page-title{
+    color: green;
+    font-size: 25px;
+    width: 70%;
+   
+}
+.product-page{
+    color:black;
+   
+}
+
+.form-newinfo {
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.botton-select {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin-top: 17px;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.botton-select:hover{
+    color: white;
+    background-color: #05FF00;
+}
+
+.button-confirm{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 43px;
+    margin-top: 17px;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.button-confirm:hover{
+    color: white;
+    background-color: #05FF00;
+}
+
+
+.product-add-increment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%
+
+}
+
+.h3-product-stock{
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.button-product-stock{
+    width: 50px;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    font-size: 30px;
+    background-color:green;
+
+}
+
+.button-product-stock:hover {
+    color: white;
+    background-color: #05FF00;
+}
+
+ .titleprod{
+     color: white;
+ }
+
+ .pricecart{
+     color: white;
+ }
